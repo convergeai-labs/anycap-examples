@@ -4,13 +4,20 @@
 
 A GitHub org avatar for [convergeai-labs](https://github.com/convergeai-labs). The composition borrows the parent brand's 7-ellipse radial ring (3 large circles + 2 vertical + 2 diagonal ellipses) and dyes each ellipse one color of the rainbow — red, orange, yellow, green, cyan, blue, violet flowing around the ring, softly glowing on a near-black squircle.
 
+![live on the org page](live-org-page.png)
+
 ## Why this one
 
 - The ring is the parent brand's geometry, so the family resemblance is immediate — but the official mark is strictly monochrome, and a full rainbow is impossible to confuse with it.
 - Seven ellipses, seven colors: each ellipse lands exactly one hue, so the mark stays crisp even at 32px.
 - The rainbow reads as "the whole product family (one hue per product) gathered in one ring".
 
-## How it was made
+## How it was made (agent + skill)
+
+The first project produced with what became the [anycap-brand-mark-lab](https://github.com/convergeai-labs/anycap-skills/blob/main/skills/anycap-brand-mark-lab/SKILL.md) skill — the skill was distilled from this session. The division of labor that made it work:
+
+- **Human**: brief, taste, and the two pivotal judgment calls — flipping the i2i base from an original composition to the parent brand's own ring, and picking the rainbow.
+- **Agent**: generated 17 gated candidates across three concept families, built the 64/44/32px decision board, enforced the no-text/UI-trace gate (it caught a faint icon-template stroke on the rainbow's first attempt that was invisible to a quick human glance), and kept the provenance log.
 
 1. Brief: convergence + spark, no text, no arrows, no reuse of the official logo, dark plate, 1:1 ≥1024px.
 2. Six original composition candidates (converging arcs → star spark, orbit constellation, comet swirl, dot-matrix squircle, aperture blades, ripples) — all passed the no-text gate.
