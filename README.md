@@ -1,20 +1,26 @@
 # anycap-examples
 
-Example works built with [AnyCap](https://anycap.ai). Every entry ships the final asset, the story, and full provenance — brief, candidates, gate results, and why the winner won.
+用 [AnyCap](https://anycap.ai) 做出的真实作品。每个条目都交付最终资产、创作故事和完整 provenance——brief、候选、门禁记录，以及胜出的理由。
 
-All works here were produced by a human + agent team using the [anycap-skills](https://github.com/convergeai-labs/anycap-skills) playbooks: the human owns brief, taste, and judgment calls; the agent generates gated candidates, builds decision boards, and keeps provenance.
+[English version → README.en.md](README.en.md)
+
+所有作品都由「人 + agent」组合使用 [anycap-skills](https://github.com/convergeai-labs/anycap-skills) 中的 playbook 完成：人负责 brief、品味和关键判断；agent 负责生成过门禁的候选、搭决策板、记 provenance。
+
+<p align="center">
+  <img src="assets/hero.png" width="720" alt="人与 agent 一起评审 logo 草稿墙">
+</p>
 
 ---
 
-## 🌈 convergeai-labs org avatar — the rainbow ring
+## 🌈 convergeai-labs org 头像 · 彩虹环
 
 <p align="center">
-  <img src="entries/2026-08-convergeai-labs-avatar/avatar-final.png" width="320" alt="convergeai-labs avatar — rainbow ring">
+  <img src="entries/2026-08-convergeai-labs-avatar/avatar-final.png" width="320" alt="convergeai-labs 头像——彩虹环">
 </p>
 
-The avatar of [convergeai-labs](https://github.com/convergeai-labs). The composition borrows the parent brand's 7-ellipse radial ring — and dyes each ellipse one color of the rainbow. Seven ellipses, seven hues: **the whole product family (one hue per product) gathered in a single ring.** The official mark is strictly monochrome, so the family resemblance is instant yet impossible to confuse.
+[convergeai-labs](https://github.com/convergeai-labs) 的 org 头像。构图借用母品牌的 7 椭圆径向圆环——每颗椭圆染一色彩虹。7 颗椭圆、7 个色相：**整个产品家族（每个产品一个色相）收进一个环**。官方 logo 严格单色，所以亲缘一目了然、又绝无混淆。
 
-It survives the real test — GitHub shows avatars at 32–44px:
+经得起真实考验——GitHub 头像只显示 32–44px：
 
 <p align="center">
   <img src="entries/2026-08-convergeai-labs-avatar/avatar-final.png" width="64" alt="64px"> &nbsp;
@@ -22,26 +28,26 @@ It survives the real test — GitHub shows avatars at 32–44px:
   <img src="entries/2026-08-convergeai-labs-avatar/avatar-final.png" width="32" alt="32px">
 </p>
 
-### How it was made
+### 创作过程
 
-17 candidates stood before this one. Six original compositions (converging arcs → star spark, orbit constellation, comet swirl, dot-matrix squircle, aperture blades, ripples), five i2i colorways on the strongest, five derivatives of the official ring itself — every single one passed through a vision gate that rejects text, watermarks, and even icon-template border traces. The rainbow ring's first attempt was rejected for a faint template stroke; the clean regeneration shipped.
+它前面站着 17 个候选：6 个原创构图（汇聚弧线→星芒、轨道星座、彗尾旋汇、点阵方框、光圈叶片、涟漪），5 个 i2i 换色，5 个官方圆环衍生——每一个都过了拒绝文字、水印甚至图标模板描边的 vision 门禁。彩虹环第一版就因一丝模板描边被拦下，干净的重生成版才出厂。
 
-| Some of the runners-up | | |
+| 部分亚军 | | |
 |---|---|---|
-| <img src="entries/2026-08-convergeai-labs-avatar/variants/v1-converging-spark.png" width="160" alt="converging spark"> | <img src="entries/2026-08-convergeai-labs-avatar/variants/c3-white-violet-core.png" width="160" alt="white + violet core"> | <img src="entries/2026-08-convergeai-labs-avatar/variants/d3-ring-spark.png" width="160" alt="white ring + violet spark"> |
-| converging spark | white + violet core | white ring + violet spark |
+| <img src="entries/2026-08-convergeai-labs-avatar/variants/v1-converging-spark.png" width="160" alt="汇聚星芒"> | <img src="entries/2026-08-convergeai-labs-avatar/variants/c3-white-violet-core.png" width="160" alt="白+紫芯"> | <img src="entries/2026-08-convergeai-labs-avatar/variants/d3-ring-spark.png" width="160" alt="白环紫芯"> |
+| 汇聚星芒 | 白+紫芯 | 白环+紫芯星芒 |
 
-📖 **Full story**: [entries/2026-08-convergeai-labs-avatar/](entries/2026-08-convergeai-labs-avatar/)
+📖 **完整故事**：[entries/2026-08-convergeai-labs-avatar/](entries/2026-08-convergeai-labs-avatar/)
 
 ---
 
-## ✨ kt-aicoding logo — the pixel spark
+## ✨ kt-aicoding logo · 像素星芒
 
 <p align="center">
-  <img src="entries/2026-08-kt-aicoding-pixel-spark/logo-final.png" width="320" alt="kt-aicoding logo — pixel spark">
+  <img src="entries/2026-08-kt-aicoding-pixel-spark/logo-final.png" width="320" alt="kt-aicoding logo——像素星芒">
 </p>
 
-A full logo redesign for [kt-aicoding](https://github.com/kt-aicoding), a developer-tools collective. A chunky 8-bit pixel star — cyan blocks with amber accents. **Ownable** (no orbit atoms, no infinity loops, no rockets), and pixel-hard edges stay crisp at 32px.
+开发者工具组织 [kt-aicoding](https://github.com/kt-aicoding) 的全新 logo。粗颗粒 8-bit 像素星——青色块配琥珀点缀。**独占性强**（不要轨道原子、不要无限环、不要火箭），像素硬边在 32px 下依然干脆。
 
 <p align="center">
   <img src="entries/2026-08-kt-aicoding-pixel-spark/logo-final.png" width="64" alt="64px"> &nbsp;
@@ -49,26 +55,28 @@ A full logo redesign for [kt-aicoding](https://github.com/kt-aicoding), a develo
   <img src="entries/2026-08-kt-aicoding-pixel-spark/logo-final.png" width="32" alt="32px">
 </p>
 
-### How it was made
+### 创作过程
 
-The first round — five candidates riffing on the incumbent logo's elements — was rejected wholesale. Instead of polishing rejected ideas, the agent jumped to a **disjoint concept space** (pixel art, keycap, cursor, infinity loop, rocket), and the pixel spark won on ownability. Delivery prep caught two real bugs: opaque white corners (flood-filled to alpha) and GitHub's camo image cache (busted with `?v=2`).
+第一轮——围绕旧 logo 元素（括号/节点/工具）的 5 个候选——被整体否决。agent 没有打磨被否方案，而是跳进**完全不相交的概念空间**（像素、键帽、光标、无限环、火箭），像素星凭独占性胜出。交付阶段抓到两个真实 bug：不透明白角（flood-fill 成透明）和 GitHub camo 图片缓存（`?v=2` 破除）。
 
-| Some of the runners-up | | |
+| 部分亚军 | | |
 |---|---|---|
-| <img src="entries/2026-08-kt-aicoding-pixel-spark/variants/v2-module-brackets.png" width="160" alt="module brackets"> | <img src="entries/2026-08-kt-aicoding-pixel-spark/variants/v7-spark-keycap.png" width="160" alt="spark keycap"> | <img src="entries/2026-08-kt-aicoding-pixel-spark/variants/v9-infinity-ribbon.png" width="160" alt="infinity ribbon"> |
-| module brackets | spark keycap | infinity ribbon |
+| <img src="entries/2026-08-kt-aicoding-pixel-spark/variants/v2-module-brackets.png" width="160" alt="模块括号"> | <img src="entries/2026-08-kt-aicoding-pixel-spark/variants/v7-spark-keycap.png" width="160" alt="星火键帽"> | <img src="entries/2026-08-kt-aicoding-pixel-spark/variants/v9-infinity-ribbon.png" width="160" alt="无限环带"> |
+| 模块拼图括号 | 星火键帽 | 无限环带 |
 
-📖 **Full story**: [entries/2026-08-kt-aicoding-pixel-spark/](entries/2026-08-kt-aicoding-pixel-spark/)
+📖 **完整故事**：[entries/2026-08-kt-aicoding-pixel-spark/](entries/2026-08-kt-aicoding-pixel-spark/)
 
 ---
 
-## The method
+## 方法论
 
-Both marks were produced with the [anycap-brand-mark-lab](https://github.com/convergeai-labs/anycap-skills/blob/main/skills/anycap-brand-mark-lab/SKILL.md) skill: brief → composition candidates → no-text vision gate → i2i colorways → 32px decision board → delivery prep → provenance.
+两个标都是用 [anycap-brand-mark-lab](https://github.com/convergeai-labs/anycap-skills/blob/main/skills/anycap-brand-mark-lab/SKILL.md) skill 产出的：brief → 构图候选 → 无文字 vision 门禁 → i2i 换色 → 32px 决策板 → 交付处理 → provenance。
 
-## Entries
+## 条目
 
-| Entry | Asset | One line |
+| 条目 | 资产 | 一句话 |
 |---|---|---|
-| [2026-08-convergeai-labs-avatar](entries/2026-08-convergeai-labs-avatar/) | GitHub org avatar | A 7-ellipse ring borrowed from the parent brand's geometry, each ellipse dyed one rainbow color |
-| [2026-08-kt-aicoding-pixel-spark](entries/2026-08-kt-aicoding-pixel-spark/) | GitHub org logo | An 8-bit pixel star — ownable texture, anti-fragile at small sizes |
+| [2026-08-convergeai-labs-avatar](entries/2026-08-convergeai-labs-avatar/) | GitHub org 头像 | 借母品牌几何的 7 椭圆环，每颗椭圆染一色彩虹 |
+| [2026-08-kt-aicoding-pixel-spark](entries/2026-08-kt-aicoding-pixel-spark/) | GitHub org logo | 8-bit 像素星——独占的肌理，小尺寸反脆弱 |
+
+许可证：CC BY 4.0
