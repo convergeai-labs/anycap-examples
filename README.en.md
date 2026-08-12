@@ -64,6 +64,20 @@ The first round — five candidates riffing on the incumbent logo's elements —
 
 ---
 
+## 🏗 RAG reference architecture — audit-passed system diagram
+
+<p align="center">
+  <img src="entries/2026-08-rag-reference-architecture/architecture-final.png" width="640" alt="RAG reference architecture">
+</p>
+
+A teaching-grade architecture diagram of a **synthetic reference system** (self-hosted RAG app: Next.js Web → FastAPI → Redis Queue / Postgres pgvector / S3 Storage / LLM API) — deliberately not any real deployment, because the biggest leak risk in a public architecture figure is the system structure itself.
+
+Two disciplines on display: **sanitize the fact graph before generating** (synthetic stack, shareable by construction) and **audit labels, not vibes** (vision gate checked all 6 labels verbatim + all 5 arrow directions; first candidate passed).
+
+📖 **Full story**: [entries/2026-08-rag-reference-architecture/](entries/2026-08-rag-reference-architecture/)
+
+---
+
 ## The method
 
 Both marks were produced with the [anycap-brand-mark-lab](https://github.com/convergeai-labs/anycap-skills/blob/main/skills/anycap-brand-mark-lab/SKILL.md) skill: brief → composition candidates → no-text vision gate → i2i colorways → 32px decision board → delivery prep → provenance.
@@ -74,3 +88,4 @@ Both marks were produced with the [anycap-brand-mark-lab](https://github.com/con
 |---|---|---|
 | [2026-08-convergeai-labs-avatar](entries/2026-08-convergeai-labs-avatar/) | GitHub org avatar | A 7-ellipse ring borrowed from the parent brand's geometry, each ellipse dyed one rainbow color |
 | [2026-08-kt-aicoding-pixel-spark](entries/2026-08-kt-aicoding-pixel-spark/) | GitHub org logo | An 8-bit pixel star — ownable texture, anti-fragile at small sizes |
+| [2026-08-rag-reference-architecture](entries/2026-08-rag-reference-architecture/) | Architecture diagram | Synthetic RAG reference system, first candidate passed the label audit |
