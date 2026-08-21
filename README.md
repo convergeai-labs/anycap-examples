@@ -6,7 +6,7 @@
 
 <p>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-CC--BY--4.0-19C7F3" alt="CC BY 4.0"></a>
-  <img src="https://img.shields.io/badge/entries-3-F6A91A" alt="3 entries">
+  <img src="https://img.shields.io/badge/entries-4-F6A91A" alt="4 entries">
   <a href="README.en.md"><img src="https://img.shields.io/badge/lang-EN-blue" alt="English"></a>
 </p>
 
@@ -92,6 +92,21 @@
 
 ---
 
+## 🧩 图语法画廊 · 一个系统五种画法
+
+| | |
+|---|---|
+| <img src="entries/2026-08-diagram-grammar-gallery/g1-context-boundary.png" width="320" alt="系统上下文图"> | <img src="entries/2026-08-diagram-grammar-gallery/g2-sequence.png" width="320" alt="时序图"> |
+| g1 系统上下文 + 信任边界 | g2 时序（编号步骤+虚线返回） |
+| <img src="entries/2026-08-diagram-grammar-gallery/g3-state-machine.png" width="320" alt="状态机"> | <img src="entries/2026-08-diagram-grammar-gallery/g4-data-flow-trust.png" width="320" alt="数据流"> |
+| g3 状态机（合法迁移） | g4 数据流（越界标记） |
+
+同一个合成系统（PR 评审 bot），按**读者问题选语法**：什么存在→上下文图、请求如何展开→时序、哪些状态合法→状态机、数据在哪越界→数据流、agent 如何持续运转→控制环（g5 在条目内）。5 张图全部一次通过标签审计——6 节点甜区内的正常发挥。
+
+📖 **完整故事**：[entries/2026-08-diagram-grammar-gallery/](entries/2026-08-diagram-grammar-gallery/)
+
+---
+
 ## 方法论
 
 品牌标用 [anycap-brand-mark-lab](https://github.com/convergeai-labs/anycap-skills/blob/main/skills/anycap-brand-mark-lab/SKILL.md)：brief → 构图候选 → 无文字 vision 门禁 → i2i 换色 → 32px 决策板 → 交付处理 → provenance。
@@ -105,5 +120,6 @@
 | [2026-08-convergeai-labs-avatar](entries/2026-08-convergeai-labs-avatar/) | GitHub org 头像 | 借母品牌几何的 7 椭圆环，每颗椭圆染一色彩虹 |
 | [2026-08-kt-aicoding-pixel-spark](entries/2026-08-kt-aicoding-pixel-spark/) | GitHub org logo | 8-bit 像素星——独占的肌理，小尺寸反脆弱 |
 | [2026-08-rag-reference-architecture](entries/2026-08-rag-reference-architecture/) | 架构图 ×4 视图 | 合成 RAG 参考系统；小图集实测 T1 密度天花板（6 节点甜区） |
+| [2026-08-diagram-grammar-gallery](entries/2026-08-diagram-grammar-gallery/) | 系统图 ×5 语法 | 一个合成系统五种语法：上下文/时序/状态机/数据流/控制环，全部一次过审计 |
 
 许可证：CC BY 4.0

@@ -6,7 +6,7 @@
 
 <p>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-CC--BY--4.0-19C7F3" alt="CC BY 4.0"></a>
-  <img src="https://img.shields.io/badge/entries-3-F6A91A" alt="3 entries">
+  <img src="https://img.shields.io/badge/entries-4-F6A91A" alt="4 entries">
   <a href="README.md"><img src="https://img.shields.io/badge/lang-中文-red" alt="中文"></a>
 </p>
 
@@ -92,6 +92,21 @@ Later expanded into a <b>4-view small-multiples set</b> (overview / query flow /
 
 ---
 
+## 🧩 Diagram grammar gallery — one system, five grammars
+
+| | |
+|---|---|
+| <img src="entries/2026-08-diagram-grammar-gallery/g1-context-boundary.png" width="320" alt="context"> | <img src="entries/2026-08-diagram-grammar-gallery/g2-sequence.png" width="320" alt="sequence"> |
+| g1 system context + trust boundary | g2 sequence (numbered steps + dashed return) |
+| <img src="entries/2026-08-diagram-grammar-gallery/g3-state-machine.png" width="320" alt="state machine"> | <img src="entries/2026-08-diagram-grammar-gallery/g4-data-flow-trust.png" width="320" alt="data flow"> |
+| g3 state machine (legal transitions) | g4 data flow (crossing markers) |
+
+One synthetic system (a PR review bot), grammar chosen by **viewer question**: what exists → context, how a request unfolds → sequence, which states are legal → state machine, where data crosses trust → data flow, how the agent keeps running → control loop (g5 inside the entry). All five passed the label audit on the first candidate — the norm inside the 6-node sweet spot.
+
+📖 **Full story**: [entries/2026-08-diagram-grammar-gallery/](entries/2026-08-diagram-grammar-gallery/)
+
+---
+
 ## The method
 
 Both marks were produced with the [anycap-brand-mark-lab](https://github.com/convergeai-labs/anycap-skills/blob/main/skills/anycap-brand-mark-lab/SKILL.md) skill: brief → composition candidates → no-text vision gate → i2i colorways → 32px decision board → delivery prep → provenance.
@@ -103,3 +118,4 @@ Both marks were produced with the [anycap-brand-mark-lab](https://github.com/con
 | [2026-08-convergeai-labs-avatar](entries/2026-08-convergeai-labs-avatar/) | GitHub org avatar | A 7-ellipse ring borrowed from the parent brand's geometry, each ellipse dyed one rainbow color |
 | [2026-08-kt-aicoding-pixel-spark](entries/2026-08-kt-aicoding-pixel-spark/) | GitHub org logo | An 8-bit pixel star — ownable texture, anti-fragile at small sizes |
 | [2026-08-rag-reference-architecture](entries/2026-08-rag-reference-architecture/) | Architecture diagram ×4 views | Synthetic RAG system; the set that measured the T1 density ceiling |
+| [2026-08-diagram-grammar-gallery](entries/2026-08-diagram-grammar-gallery/) | System diagrams ×5 grammars | One synthetic system, five grammars; all first-candidate audit passes |
