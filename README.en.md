@@ -1,10 +1,24 @@
+<p align="center">
+  <img src="assets/banner.png" width="100%" alt="anycap-examples gallery banner">
+</p>
+
 # anycap-examples
 
-Example works built with [AnyCap](https://anycap.ai).
+<p>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-CC--BY--4.0-19C7F3" alt="CC BY 4.0"></a>
+  <img src="https://img.shields.io/badge/entries-3-F6A91A" alt="3 entries">
+  <a href="README.md"><img src="https://img.shields.io/badge/lang-中文-red" alt="中文"></a>
+</p>
 
-[中文版本 → README.md](README.md) Every entry ships the final asset, the story, and full provenance — brief, candidates, gate results, and why the winner won.
+**Real works made with [AnyCap](https://anycap.ai)** — every entry ships the final asset, the story, and full provenance: brief, candidates, gate results, and why the winner won. Not a portfolio — a reproducible case library.
+
+[中文版本 → README.md](README.md)
 
 All works here were produced by a human + agent team using the [anycap-skills](https://github.com/convergeai-labs/anycap-skills) playbooks: the human owns brief, taste, and judgment calls; the agent generates gated candidates, builds decision boards, and keeps provenance.
+
+<p align="center">
+  <img src="assets/hero.png" width="720" alt="a human and an agent reviewing a wall of logo drafts">
+</p>
 
 ---
 
@@ -72,7 +86,7 @@ The first round — five candidates riffing on the incumbent logo's elements —
 
 A teaching-grade architecture diagram of a **synthetic reference system** (self-hosted RAG app: Next.js Web → FastAPI → Redis Queue / Postgres pgvector / S3 Storage / LLM API) — deliberately not any real deployment, because the biggest leak risk in a public architecture figure is the system structure itself.
 
-Two disciplines on display: **sanitize the fact graph before generating** (synthetic stack, shareable by construction) and **audit labels, not vibes** (vision gate checked all 6 labels verbatim + all 5 arrow directions; first candidate passed).
+Later expanded into a <b>4-view small-multiples set</b> (overview / query flow / ingest pipeline / deployment, see views/; v1 retreated to a deterministic SVG per the branch rule, editable source kept). Two disciplines on display: **sanitize the fact graph before generating** (synthetic stack, shareable by construction) and **audit labels, not vibes** (vision gate checked all 6 labels verbatim + all 5 arrow directions; first candidate passed).
 
 📖 **Full story**: [entries/2026-08-rag-reference-architecture/](entries/2026-08-rag-reference-architecture/)
 
@@ -88,4 +102,4 @@ Both marks were produced with the [anycap-brand-mark-lab](https://github.com/con
 |---|---|---|
 | [2026-08-convergeai-labs-avatar](entries/2026-08-convergeai-labs-avatar/) | GitHub org avatar | A 7-ellipse ring borrowed from the parent brand's geometry, each ellipse dyed one rainbow color |
 | [2026-08-kt-aicoding-pixel-spark](entries/2026-08-kt-aicoding-pixel-spark/) | GitHub org logo | An 8-bit pixel star — ownable texture, anti-fragile at small sizes |
-| [2026-08-rag-reference-architecture](entries/2026-08-rag-reference-architecture/) | Architecture diagram | Synthetic RAG reference system, first candidate passed the label audit |
+| [2026-08-rag-reference-architecture](entries/2026-08-rag-reference-architecture/) | Architecture diagram ×4 views | Synthetic RAG system; the set that measured the T1 density ceiling |

@@ -23,3 +23,21 @@ Produced with [anycap-architecture-diagrams](https://github.com/convergeai-labs/
 4. Done in a single generation. The skill's rule for when it doesn't go this well: one concrete failure → regenerate naming the failure; two failed audits → switch to the hybrid branch (no-text plate + deterministic labels).
 
 The full fact graph, prompt, and audit transcript are in [`provenance.md`](provenance.md).
+
+## The multi-view set (small multiples)
+
+One diagram answers one question — so the entry grew into a coordinated 4-view set, all projecting the same frozen fact model (same node names, palette, typography, connector style):
+
+| | |
+|---|---|
+| ![v1](views/v1-overview.png) | ![v2](views/v2-query-flow.png) |
+| **v1 分层总览** — full 8-node × 8-arrow topology | **v2 查询流程** — sync query path with step numbers |
+| ![v3](views/v3-ingest-pipeline.png) | ![v4](views/v4-deployment.png) |
+| **v3 索引管线** — async ingest path | **v4 部署视图** — single-VPS boundary |
+
+The set is also the skill's branch rules playing out for real:
+
+- **v2 / v3 / v4** (5–6 nodes each): T1 generation, `AUDIT-PASS` on the first candidate — the sweet spot.
+- **v1** (8 nodes × 8 arrows): three T1 attempts each missed exactly **one** arrow, a different one every time — the classic fix-one-break-another carousel. Per the rule ("two failed audits → switch branch"), v1 retreated to a **deterministic SVG** ([source](views/v1-overview.svg) kept, fully editable). Generated pixels are the explanation layer; the deterministic source is the truth layer.
+
+Lesson measured, not guessed: **the T1 full-generation ceiling is ~6 nodes**; beyond that, arrows start drifting one-per-roll.

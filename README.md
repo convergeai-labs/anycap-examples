@@ -1,6 +1,16 @@
+<p align="center">
+  <img src="assets/banner.png" width="100%" alt="anycap-examples 画廊横幅">
+</p>
+
 # anycap-examples
 
-用 [AnyCap](https://anycap.ai) 做出的真实作品。每个条目都交付最终资产、创作故事和完整 provenance——brief、候选、门禁记录，以及胜出的理由。
+<p>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-CC--BY--4.0-19C7F3" alt="CC BY 4.0"></a>
+  <img src="https://img.shields.io/badge/entries-3-F6A91A" alt="3 entries">
+  <a href="README.en.md"><img src="https://img.shields.io/badge/lang-EN-blue" alt="English"></a>
+</p>
+
+**用 [AnyCap](https://anycap.ai) 做出的真实作品**——每个条目都交付最终资产、创作故事和完整 provenance：brief、候选、门禁记录，以及胜出的理由。不是作品集，是可复现的案例库。
 
 [English version → README.en.md](README.en.md)
 
@@ -76,7 +86,7 @@
 
 一张教学级架构图：**合成参考系统**（自建 RAG 小应用：Next.js Web → FastAPI → Redis Queue / Postgres pgvector / S3 Storage / LLM API），刻意不对应任何真实部署——架构图公开的最大风险不是文字，而是系统结构本身。
 
-创作过程演示了两条纪律：**先脱敏事实图再生成**（从合成栈出发，天然可分享）；**审计标签而非氛围**（vision 门禁逐字核对 6 个标签白名单 + 逐条核对 5 个箭头方向，首个候选即 `AUDIT-PASS`）。
+后来扩展成 <b>4 视图小图集</b>（分层总览 / 查询流程 / 索引管线 / 部署视图，views/ 目录，v1 按分支规则退回确定性 SVG 并保留可编辑源）。创作过程演示了两条纪律：**先脱敏事实图再生成**（从合成栈出发，天然可分享）；**审计标签而非氛围**（vision 门禁逐字核对 6 个标签白名单 + 逐条核对 5 个箭头方向，首个候选即 `AUDIT-PASS`）。
 
 📖 **完整故事**：[entries/2026-08-rag-reference-architecture/](entries/2026-08-rag-reference-architecture/)
 
@@ -94,6 +104,6 @@
 |---|---|---|
 | [2026-08-convergeai-labs-avatar](entries/2026-08-convergeai-labs-avatar/) | GitHub org 头像 | 借母品牌几何的 7 椭圆环，每颗椭圆染一色彩虹 |
 | [2026-08-kt-aicoding-pixel-spark](entries/2026-08-kt-aicoding-pixel-spark/) | GitHub org logo | 8-bit 像素星——独占的肌理，小尺寸反脆弱 |
-| [2026-08-rag-reference-architecture](entries/2026-08-rag-reference-architecture/) | 架构图 | 合成 RAG 参考系统，首个候选即通过标签审计 |
+| [2026-08-rag-reference-architecture](entries/2026-08-rag-reference-architecture/) | 架构图 ×4 视图 | 合成 RAG 参考系统；小图集实测 T1 密度天花板（6 节点甜区） |
 
 许可证：CC BY 4.0

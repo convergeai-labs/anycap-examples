@@ -36,3 +36,26 @@ Model: nano-banana-pro. Prompt structured as: layer grammar → node inventory w
 
 - Arrow routing into `LLM API` shares the `S3 Storage` channel for a segment — acceptable for a teaching figure; an exact-topology requirement would have switched to the hybrid/deterministic branch.
 - 6 nodes is near the sweet spot; the skill caps generated figures at ~12 nodes before splitting views.
+
+## Multi-view expansion (2026-08, second pass)
+
+The single figure grew into a coordinated 4-view set over one frozen fact model (8 nodes shared across views):
+
+| View | Grammar | Nodes | Branch | Audit |
+|---|---|---|---|---|
+| v1 overview | layered, full topology | 8 | **deterministic SVG** after 3 failed T1 audits | see below |
+| v2 query flow | horizontal flow + step numbers | 6 | T1 (nano-banana-pro) | PASS, 1st candidate |
+| v3 ingest pipeline | horizontal pipeline + side loop | 6 | T1 | PASS, 1st candidate |
+| v4 deployment | container boundary | 9 labels | T1 | PASS, 1st candidate |
+
+### v1 audit trail (why it retreated)
+
+- **r1**: extra row labels (`Client`/`Services`/`Data & AI`), missing `Worker→Postgres`, extra `FastAPI→Embedding API` → FAIL
+- **r2** (failures named in prompt, "no row titles"): labels perfect; `Worker→Postgres` still missing, two stray `Worker→FastAPI` arrows → FAIL
+- **r3** (layout-driven fix: Worker placed directly above Postgres to shorten the arrow): `Web→FastAPI` missing, stray `Web→Worker` → FAIL
+
+Three rolls, each exactly one arrow off, a different arrow each time — the fix-one-break-another carousel. Per the branch rule, v1 retreated to a hand-authored deterministic SVG (`views/v1-overview.svg`): all 8 labels and 8 arrows exact by construction, editable source preserved.
+
+### Measured takeaway
+
+T1 full generation with inline labels is reliable up to **~6 nodes / ~6 edges**; at 8×8 the per-roll arrow drift makes further rolls zero-expectancy. Layout-first prompt fixes help but don't move the ceiling.
