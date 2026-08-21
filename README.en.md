@@ -101,7 +101,7 @@ Later expanded into a <b>4-view small-multiples set</b> (overview / query flow /
 | <img src="entries/2026-08-diagram-grammar-gallery/g3-state-machine.png" width="320" alt="state machine"> | <img src="entries/2026-08-diagram-grammar-gallery/g4-data-flow-trust.png" width="320" alt="data flow"> |
 | g3 state machine (legal transitions) | g4 data flow (crossing markers) |
 
-One synthetic system (a PR review bot), grammar chosen by **viewer question**: what exists → context, how a request unfolds → sequence, which states are legal → state machine, where data crosses trust → data flow, how the agent keeps running → control loop (g5 inside the entry). All five passed the label audit on the first candidate — the norm inside the 6-node sweet spot.
+One synthetic system (a PR review bot), grammar chosen by **viewer question**: what exists → context, how a request unfolds → sequence, which states are legal → state machine, where data crosses trust → data flow, how the agent keeps running → control loop (g5 inside the entry). Current set is the v2 editorial style (warm-white canvas, navy structure, bold title, takeaway caption); the dark dashboard v1 is kept inside the entry as before/after evidence — "looks like themed Mermaid" is a reject reason even when every label is correct.
 
 📖 **Full story**: [entries/2026-08-diagram-grammar-gallery/](entries/2026-08-diagram-grammar-gallery/)
 

@@ -101,7 +101,7 @@
 | <img src="entries/2026-08-diagram-grammar-gallery/g3-state-machine.png" width="320" alt="状态机"> | <img src="entries/2026-08-diagram-grammar-gallery/g4-data-flow-trust.png" width="320" alt="数据流"> |
 | g3 状态机（合法迁移） | g4 数据流（越界标记） |
 
-同一个合成系统（PR 评审 bot），按**读者问题选语法**：什么存在→上下文图、请求如何展开→时序、哪些状态合法→状态机、数据在哪越界→数据流、agent 如何持续运转→控制环（g5 在条目内）。5 张图全部一次通过标签审计——6 节点甜区内的正常发挥。
+同一个合成系统（PR 评审 bot），按**读者问题选语法**：什么存在→上下文图、请求如何展开→时序、哪些状态合法→状态机、数据在哪越界→数据流、agent 如何持续运转→控制环（g5 在条目内）。本套为 v2 编辑部风格（暖白画布+藏青结构+大标题+底部结论行）；v1 深色 dashboard 版保留在条目内作对照——"像换皮 Mermaid" 即使标签全对也是打回理由。
 
 📖 **完整故事**：[entries/2026-08-diagram-grammar-gallery/](entries/2026-08-diagram-grammar-gallery/)
 
