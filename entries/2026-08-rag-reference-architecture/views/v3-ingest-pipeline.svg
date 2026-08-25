@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1376" height="768" viewBox="0 0 1376 768">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 9 5 L 0 9 z" fill="#1E3A5F"/>
+    </marker>
+    <style>
+      .card { fill: #FFFFFF; stroke: #1E3A5F; stroke-width: 2.5; }
+      .lbl { fill: #1E3A5F; font-family: -apple-system, "PingFang SC", "Helvetica Neue", sans-serif; font-size: 21px; font-weight: 600; text-anchor: middle; }
+      .title { fill: #1E3A5F; font-family: -apple-system, "PingFang SC", sans-serif; font-size: 36px; font-weight: 700; }
+      .cap { fill: #475569; font-family: -apple-system, "PingFang SC", sans-serif; font-size: 18px; text-anchor: middle; }
+      .edge { stroke: #1E3A5F; stroke-width: 4; fill: none; marker-end: url(#arr); }
+    </style>
+  </defs>
+  <rect width="1376" height="768" fill="#FAFAF7"/>
+  <text class="title" x="64" y="76">索引管线</text>
+
+  <rect class="card" x="60" y="280" width="160" height="76" rx="12"/>
+  <text class="lbl" x="140" y="327">Upload</text>
+  <rect class="card" x="300" y="280" width="200" height="76" rx="12"/>
+  <text class="lbl" x="400" y="327">S3 Storage</text>
+  <rect class="card" x="580" y="280" width="220" height="76" rx="12"/>
+  <text class="lbl" x="690" y="327">Redis Queue</text>
+  <rect class="card" x="880" y="280" width="170" height="76" rx="12"/>
+  <text class="lbl" x="965" y="327">Worker</text>
+  <rect class="card" x="1120" y="280" width="230" height="76" rx="12"/>
+  <text class="lbl" x="1235" y="327">Postgres pgvector</text>
+
+  <path class="edge" d="M 220 318 L 296 318"/>
+  <path class="edge" d="M 500 318 L 576 318"/>
+  <path class="edge" d="M 800 318 L 876 318"/>
+  <path class="edge" d="M 1050 318 L 1116 318"/>
+
+  <rect class="card" x="855" y="520" width="220" height="76" rx="12"/>
+  <text class="lbl" x="965" y="567">Embedding API</text>
+  <path class="edge" d="M 940 356 L 940 460 L 950 460 L 950 516"/>
+  <path class="edge" d="M 990 516 L 990 460 L 980 460 L 980 360"/>
+
+  <text class="cap" x="688" y="724">文档入库的异步路径</text>
+</svg>

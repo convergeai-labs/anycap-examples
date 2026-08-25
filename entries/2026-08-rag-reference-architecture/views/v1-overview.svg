@@ -1,44 +1,49 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1376" height="768" viewBox="0 0 1376 768">
   <defs>
     <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
-      <path d="M 0 1 L 9 5 L 0 9 z" fill="#F6A91A"/>
+      <path d="M 0 1 L 9 5 L 0 9 z" fill="#1E3A5F"/>
     </marker>
     <style>
-      .box { fill: #19C7F3; rx: 14; }
-      .lbl { fill: #FFFFFF; font-family: -apple-system, "Helvetica Neue", sans-serif; font-size: 22px; font-weight: 600; text-anchor: middle; }
-      .edge { stroke: #F6A91A; stroke-width: 5; fill: none; marker-end: url(#arr); }
+      .card { fill: #FFFFFF; stroke: #1E3A5F; stroke-width: 2.5; }
+      .lbl { fill: #1E3A5F; font-family: -apple-system, "PingFang SC", "Helvetica Neue", sans-serif; font-size: 21px; font-weight: 600; text-anchor: middle; }
+      .title { fill: #1E3A5F; font-family: -apple-system, "PingFang SC", sans-serif; font-size: 36px; font-weight: 700; }
+      .cap { fill: #475569; font-family: -apple-system, "PingFang SC", sans-serif; font-size: 18px; text-anchor: middle; }
+      .edge { stroke: #1E3A5F; stroke-width: 4; fill: none; marker-end: url(#arr); }
     </style>
   </defs>
-  <rect width="1376" height="768" rx="28" fill="#0B0B12"/>
+  <rect width="1376" height="768" fill="#FAFAF7"/>
+  <text class="title" x="64" y="76">分层总览</text>
 
   <!-- top -->
-  <rect class="box" x="548" y="64" width="280" height="72" rx="14"/>
-  <text class="lbl" x="688" y="109">Next.js Web</text>
+  <rect class="card" x="548" y="110" width="280" height="72" rx="12"/>
+  <text class="lbl" x="688" y="155">Next.js Web</text>
 
   <!-- middle -->
-  <rect class="box" x="208" y="296" width="220" height="72" rx="14"/>
-  <text class="lbl" x="318" y="341">FastAPI</text>
-  <rect class="box" x="578" y="296" width="220" height="72" rx="14"/>
-  <text class="lbl" x="688" y="341">Worker</text>
-  <rect class="box" x="948" y="296" width="220" height="72" rx="14"/>
-  <text class="lbl" x="1058" y="341">Redis Queue</text>
+  <rect class="card" x="208" y="290" width="220" height="72" rx="12"/>
+  <text class="lbl" x="318" y="335">FastAPI</text>
+  <rect class="card" x="578" y="290" width="220" height="72" rx="12"/>
+  <text class="lbl" x="688" y="335">Worker</text>
+  <rect class="card" x="948" y="290" width="220" height="72" rx="12"/>
+  <text class="lbl" x="1058" y="335">Redis Queue</text>
 
   <!-- bottom -->
-  <rect class="box" x="98" y="560" width="260" height="72" rx="14"/>
-  <text class="lbl" x="228" y="605">Postgres pgvector</text>
-  <rect class="box" x="428" y="560" width="220" height="72" rx="14"/>
-  <text class="lbl" x="538" y="605">S3 Storage</text>
-  <rect class="box" x="718" y="560" width="200" height="72" rx="14"/>
-  <text class="lbl" x="818" y="605">LLM API</text>
-  <rect class="box" x="988" y="560" width="240" height="72" rx="14"/>
-  <text class="lbl" x="1108" y="605">Embedding API</text>
+  <rect class="card" x="98" y="500" width="260" height="72" rx="12"/>
+  <text class="lbl" x="228" y="545">Postgres pgvector</text>
+  <rect class="card" x="428" y="500" width="220" height="72" rx="12"/>
+  <text class="lbl" x="538" y="545">S3 Storage</text>
+  <rect class="card" x="718" y="500" width="200" height="72" rx="12"/>
+  <text class="lbl" x="818" y="545">LLM API</text>
+  <rect class="card" x="988" y="500" width="240" height="72" rx="12"/>
+  <text class="lbl" x="1108" y="545">Embedding API</text>
 
   <!-- edges -->
-  <path class="edge" d="M 620 136 L 620 250 L 360 250 L 360 292"/>            <!-- Web -> FastAPI -->
-  <path class="edge" d="M 428 332 L 574 332"/>                                <!-- FastAPI -> Worker -->
-  <path class="edge" d="M 798 332 L 944 332"/>                                <!-- Worker -> Redis Queue -->
-  <path class="edge" d="M 300 368 L 300 480 L 520 480 L 520 556"/>            <!-- FastAPI -> S3 -->
-  <path class="edge" d="M 340 368 L 340 510 L 800 510 L 800 556"/>            <!-- FastAPI -> LLM -->
-  <path class="edge" d="M 688 368 L 688 440 L 228 440 L 228 556"/>            <!-- Worker -> Postgres -->
-  <path class="edge" d="M 740 368 L 740 470 L 1080 470 L 1080 556"/>          <!-- Worker -> Embedding -->
+  <path class="edge" d="M 620 182 L 620 246 L 360 246 L 360 286"/>
+  <path class="edge" d="M 428 326 L 574 326"/>
+  <path class="edge" d="M 798 326 L 944 326"/>
+  <path class="edge" d="M 300 362 L 300 440 L 520 440 L 520 496"/>
+  <path class="edge" d="M 340 362 L 340 465 L 800 465 L 800 496"/>
+  <path class="edge" d="M 688 362 L 688 420 L 228 420 L 228 496"/>
+  <path class="edge" d="M 740 362 L 740 440 L 1080 440 L 1080 496"/>
+
+  <text class="cap" x="688" y="700">查询与索引共用一套数据底座</text>
 </svg>

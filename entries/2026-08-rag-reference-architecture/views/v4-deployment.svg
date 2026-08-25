@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1376" height="768" viewBox="0 0 1376 768">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 9 5 L 0 9 z" fill="#1E3A5F"/>
+    </marker>
+    <style>
+      .card { fill: #FFFFFF; stroke: #1E3A5F; stroke-width: 2.5; }
+      .lbl { fill: #1E3A5F; font-family: -apple-system, "PingFang SC", "Helvetica Neue", sans-serif; font-size: 21px; font-weight: 600; text-anchor: middle; }
+      .title { fill: #1E3A5F; font-family: -apple-system, "PingFang SC", sans-serif; font-size: 36px; font-weight: 700; }
+      .cap { fill: #475569; font-family: -apple-system, "PingFang SC", sans-serif; font-size: 18px; text-anchor: middle; }
+      .edge { stroke: #1E3A5F; stroke-width: 4; fill: none; marker-end: url(#arr); }
+      .zone { fill: none; stroke: #94A3B8; stroke-width: 2.5; stroke-dasharray: 12 8; }
+      .zlbl { fill: #64748B; font-family: -apple-system, "PingFang SC", sans-serif; font-size: 17px; font-weight: 600; }
+    </style>
+  </defs>
+  <rect width="1376" height="768" fill="#FAFAF7"/>
+  <text class="title" x="64" y="76">部署视图</text>
+
+  <rect class="zone" x="60" y="130" width="900" height="500" rx="16"/>
+  <text class="zlbl" x="84" y="162">Single VPS (Docker Compose)</text>
+
+  <rect class="card" x="100" y="200" width="250" height="72" rx="12"/>
+  <text class="lbl" x="225" y="245">Next.js Web</text>
+  <rect class="card" x="380" y="200" width="250" height="72" rx="12"/>
+  <text class="lbl" x="505" y="245">FastAPI</text>
+  <rect class="card" x="660" y="200" width="250" height="72" rx="12"/>
+  <text class="lbl" x="785" y="245">Redis Queue</text>
+
+  <rect class="card" x="100" y="420" width="250" height="72" rx="12"/>
+  <text class="lbl" x="225" y="465">Worker</text>
+  <rect class="card" x="380" y="420" width="250" height="72" rx="12"/>
+  <text class="lbl" x="505" y="465">Postgres pgvector</text>
+  <rect class="card" x="660" y="420" width="250" height="72" rx="12"/>
+  <text class="lbl" x="785" y="465">S3 Storage</text>
+
+  <rect class="card" x="1030" y="200" width="280" height="72" rx="12"/>
+  <text class="lbl" x="1170" y="245">LLM API</text>
+  <rect class="card" x="1030" y="420" width="280" height="72" rx="12"/>
+  <text class="lbl" x="1170" y="465">Embedding API</text>
+
+  <path class="edge" d="M 960 236 L 1026 236"/>
+  <path class="edge" d="M 960 456 L 1026 456"/>
+
+  <text class="cap" x="688" y="724">一台 VPS 撑起全部，模型能力走外部 API</text>
+</svg>

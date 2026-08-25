@@ -86,7 +86,7 @@ The first round — five candidates riffing on the incumbent logo's elements —
 
 A teaching-grade architecture diagram of a **synthetic reference system** (self-hosted RAG app: Next.js Web → FastAPI → Redis Queue / Postgres pgvector / S3 Storage / LLM API) — deliberately not any real deployment, because the biggest leak risk in a public architecture figure is the system structure itself.
 
-Later expanded into a <b>4-view small-multiples set</b> (overview / query flow / ingest pipeline / deployment, see views/; v1 retreated to a deterministic SVG per the branch rule, editable source kept). Two disciplines on display: **sanitize the fact graph before generating** (synthetic stack, shareable by construction) and **audit labels, not vibes** (vision gate checked all 6 labels verbatim + all 5 arrow directions; first candidate passed).
+Now in the v2 editorial style (warm-white canvas, navy structure, Chinese titles, takeaway captions) — all five figures hand-authored as deterministic SVGs with editable sources kept; the dark v1 set is archived inside the entry as before/after evidence. Two disciplines on display: **sanitize the fact graph before generating** (synthetic stack, shareable by construction) and **audit labels, not vibes** (vision gate checked all 6 labels verbatim + all 5 arrow directions; first candidate passed).
 
 📖 **Full story**: [entries/2026-08-rag-reference-architecture/](entries/2026-08-rag-reference-architecture/)
 
@@ -117,5 +117,5 @@ Both marks were produced with the [anycap-brand-mark-lab](https://github.com/con
 |---|---|---|
 | [2026-08-convergeai-labs-avatar](entries/2026-08-convergeai-labs-avatar/) | GitHub org avatar | A 7-ellipse ring borrowed from the parent brand's geometry, each ellipse dyed one rainbow color |
 | [2026-08-kt-aicoding-pixel-spark](entries/2026-08-kt-aicoding-pixel-spark/) | GitHub org logo | An 8-bit pixel star — ownable texture, anti-fragile at small sizes |
-| [2026-08-rag-reference-architecture](entries/2026-08-rag-reference-architecture/) | Architecture diagram ×4 views | Synthetic RAG system; the set that measured the T1 density ceiling |
+| [2026-08-rag-reference-architecture](entries/2026-08-rag-reference-architecture/) | Architecture diagram ×5 (editorial) | Synthetic RAG system; T1 ceiling measured, style upgrade via the deterministic branch |
 | [2026-08-diagram-grammar-gallery](entries/2026-08-diagram-grammar-gallery/) | System diagrams ×5 grammars | One synthetic system, five grammars; all first-candidate audit passes |

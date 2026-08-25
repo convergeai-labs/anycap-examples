@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1376" height="768" viewBox="0 0 1376 768">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 9 5 L 0 9 z" fill="#1E3A5F"/>
+    </marker>
+    <style>
+      .card { fill: #FFFFFF; stroke: #1E3A5F; stroke-width: 2.5; }
+      .lbl { fill: #1E3A5F; font-family: -apple-system, "PingFang SC", "Helvetica Neue", sans-serif; font-size: 21px; font-weight: 600; text-anchor: middle; }
+      .title { fill: #1E3A5F; font-family: -apple-system, "PingFang SC", sans-serif; font-size: 36px; font-weight: 700; }
+      .cap { fill: #475569; font-family: -apple-system, "PingFang SC", sans-serif; font-size: 18px; text-anchor: middle; }
+      .edge { stroke: #1E3A5F; stroke-width: 4; fill: none; marker-end: url(#arr); }
+      .ret { stroke: #1E3A5F; stroke-width: 4; fill: none; stroke-dasharray: 10 8; marker-end: url(#arr); }
+      .num { fill: #FFFFFF; font-family: -apple-system, sans-serif; font-size: 17px; font-weight: 700; text-anchor: middle; }
+      .navy { fill: #1E3A5F; }
+      .teal { fill: #0D9488; }
+    </style>
+  </defs>
+  <rect width="1376" height="768" fill="#FAFAF7"/>
+  <text class="title" x="64" y="76">查询流程</text>
+
+  <rect class="card" x="60" y="280" width="130" height="76" rx="12"/>
+  <text class="lbl" x="125" y="327">User</text>
+  <rect class="card" x="270" y="280" width="200" height="76" rx="12"/>
+  <text class="lbl" x="370" y="327">Next.js Web</text>
+  <rect class="card" x="550" y="280" width="170" height="76" rx="12"/>
+  <text class="lbl" x="635" y="327">FastAPI</text>
+  <rect class="card" x="800" y="280" width="280" height="76" rx="12"/>
+  <text class="lbl" x="940" y="327">Postgres pgvector</text>
+  <rect class="card" x="1160" y="280" width="180" height="76" rx="12"/>
+  <text class="lbl" x="1250" y="327">LLM API</text>
+
+  <path class="edge" d="M 190 318 L 266 318"/>
+  <path class="edge" d="M 470 318 L 546 318"/>
+  <path class="edge" d="M 720 318 L 796 318"/>
+  <path class="edge" d="M 1080 318 L 1156 318"/>
+  <path class="ret" d="M 1250 356 L 1250 520 L 125 520 L 125 360"/>
+
+  <circle class="navy" cx="228" cy="318" r="17"/><text class="num" x="228" y="324">1</text>
+  <circle class="navy" cx="508" cy="318" r="17"/><text class="num" x="508" y="324">2</text>
+  <circle class="teal" cx="758" cy="318" r="17"/><text class="num" x="758" y="324">3</text>
+  <circle class="teal" cx="1118" cy="318" r="17"/><text class="num" x="1118" y="324">4</text>
+  <text class="lbl" x="688" y="556" font-size="19">回答</text>
+
+  <text class="cap" x="688" y="724">检索增强的一次完整问答</text>
+</svg>

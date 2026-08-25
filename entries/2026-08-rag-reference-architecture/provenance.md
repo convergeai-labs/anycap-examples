@@ -59,3 +59,17 @@ Three rolls, each exactly one arrow off, a different arrow each time — the fix
 ### Measured takeaway
 
 T1 full generation with inline labels is reliable up to **~6 nodes / ~6 edges**; at 8×8 the per-roll arrow drift makes further rolls zero-expectancy. Layout-first prompt fixes help but don't move the ceiling.
+
+## Style v2 (2026-08-21): editorial restyle via the deterministic branch
+
+User feedback on the dark set: "和 mermaid 没区别，而且颜色比较臭" — dashboard chrome carries zero style information. The grammar-gallery entry had already been regenerated in the editorial visual language (warm-white #FAFAF7, navy #1E3A5F structure, meaning-carrying accents, bold Chinese title + takeaway caption, text-only cards).
+
+This entry followed — with a twist: **the AnyCap credit balance hit zero mid-task** (`INSUFFICIENT_CREDIT` on both image generation and image-read). So the editorial restyle was executed entirely through the **deterministic branch**: all five figures (main + 4 views) were hand-authored as SVGs in the editorial language and rendered with resvg.
+
+That is not a compromise, it is the skill working as designed:
+
+- exact topology AND a frozen editorial style were both hard requirements → deterministic was the only branch that guarantees both;
+- every figure ships its editable SVG source next to the PNG — truth layer and explanation layer in one artifact;
+- the v1 dark figures are archived in `v1-dark-dashboard/` for before/after comparison.
+
+Fonts: PingFang SC via `-apple-system` stack; rendered locally with `@resvg/resvg-js-cli`.

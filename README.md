@@ -86,7 +86,7 @@
 
 一张教学级架构图：**合成参考系统**（自建 RAG 小应用：Next.js Web → FastAPI → Redis Queue / Postgres pgvector / S3 Storage / LLM API），刻意不对应任何真实部署——架构图公开的最大风险不是文字，而是系统结构本身。
 
-后来扩展成 <b>4 视图小图集</b>（分层总览 / 查询流程 / 索引管线 / 部署视图，views/ 目录，v1 按分支规则退回确定性 SVG 并保留可编辑源）。创作过程演示了两条纪律：**先脱敏事实图再生成**（从合成栈出发，天然可分享）；**审计标签而非氛围**（vision 门禁逐字核对 6 个标签白名单 + 逐条核对 5 个箭头方向，首个候选即 `AUDIT-PASS`）。
+现为 v2 编辑部风格（暖白画布+藏青结构+中文标题+底部结论行），全套 5 图均为手写 SVG 确定性产出并保留可编辑源；v1 深色版保留在条目内作对照。创作过程演示了两条纪律：**先脱敏事实图再生成**（从合成栈出发，天然可分享）；**审计标签而非氛围**（vision 门禁逐字核对 6 个标签白名单 + 逐条核对 5 个箭头方向，首个候选即 `AUDIT-PASS`）。
 
 📖 **完整故事**：[entries/2026-08-rag-reference-architecture/](entries/2026-08-rag-reference-architecture/)
 
@@ -119,7 +119,7 @@
 |---|---|---|
 | [2026-08-convergeai-labs-avatar](entries/2026-08-convergeai-labs-avatar/) | GitHub org 头像 | 借母品牌几何的 7 椭圆环，每颗椭圆染一色彩虹 |
 | [2026-08-kt-aicoding-pixel-spark](entries/2026-08-kt-aicoding-pixel-spark/) | GitHub org logo | 8-bit 像素星——独占的肌理，小尺寸反脆弱 |
-| [2026-08-rag-reference-architecture](entries/2026-08-rag-reference-architecture/) | 架构图 ×4 视图 | 合成 RAG 参考系统；小图集实测 T1 密度天花板（6 节点甜区） |
+| [2026-08-rag-reference-architecture](entries/2026-08-rag-reference-architecture/) | 架构图 ×5（editorial） | 合成 RAG 参考系统；T1 天花板实测 + 确定性分支完成风格升级 |
 | [2026-08-diagram-grammar-gallery](entries/2026-08-diagram-grammar-gallery/) | 系统图 ×5 语法 | 一个合成系统五种语法：上下文/时序/状态机/数据流/控制环，全部一次过审计 |
 
 许可证：CC BY 4.0

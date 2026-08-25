@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1376" height="768" viewBox="0 0 1376 768">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 9 5 L 0 9 z" fill="#1E3A5F"/>
+    </marker>
+    <style>
+      .card { fill: #FFFFFF; stroke: #1E3A5F; stroke-width: 2.5; }
+      .lbl { fill: #1E3A5F; font-family: -apple-system, "PingFang SC", "Helvetica Neue", sans-serif; font-size: 21px; font-weight: 600; text-anchor: middle; }
+      .title { fill: #1E3A5F; font-family: -apple-system, "PingFang SC", sans-serif; font-size: 36px; font-weight: 700; }
+      .cap { fill: #475569; font-family: -apple-system, "PingFang SC", sans-serif; font-size: 18px; text-anchor: middle; }
+      .edge { stroke: #1E3A5F; stroke-width: 4; fill: none; marker-end: url(#arr); }
+    </style>
+  </defs>
+  <rect width="1376" height="768" fill="#FAFAF7"/>
+  <text class="title" x="64" y="76">分层架构</text>
+
+  <rect class="card" x="528" y="120" width="320" height="76" rx="12"/>
+  <text class="lbl" x="688" y="167">Next.js Web</text>
+
+  <rect class="card" x="330" y="320" width="280" height="76" rx="12"/>
+  <text class="lbl" x="470" y="367">FastAPI</text>
+  <rect class="card" x="760" y="320" width="260" height="76" rx="12"/>
+  <text class="lbl" x="890" y="367">Redis Queue</text>
+
+  <rect class="card" x="120" y="540" width="300" height="76" rx="12"/>
+  <text class="lbl" x="270" y="587">Postgres pgvector</text>
+  <rect class="card" x="540" y="540" width="240" height="76" rx="12"/>
+  <text class="lbl" x="660" y="587">S3 Storage</text>
+  <rect class="card" x="900" y="540" width="220" height="76" rx="12"/>
+  <text class="lbl" x="1010" y="587">LLM API</text>
+
+  <path class="edge" d="M 600 196 L 600 260 L 470 260 L 470 316"/>
+  <path class="edge" d="M 610 358 L 756 358"/>
+  <path class="edge" d="M 430 396 L 430 470 L 270 470 L 270 536"/>
+  <path class="edge" d="M 470 396 L 470 500 L 660 500 L 660 536"/>
+  <path class="edge" d="M 510 396 L 510 470 L 1010 470 L 1010 536"/>
+
+  <text class="cap" x="688" y="724">一个 RAG 小应用的最小组成</text>
+</svg>
